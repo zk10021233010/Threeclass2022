@@ -10,8 +10,8 @@ from configs.config import login_data
 
 excelDir = f'../data/Threeclass_test.xls'
 class Test_authCode:
-    # def setup_class(self):
-    #     self.token = Login_class().login(login_data,getToken=True)
+    def setup_class(self):
+        self.token = Login_class().login(login_data,getToken=True)
 
     @pytest.mark.parametrize('tagName,inBody,expData',get_excel_data(excelDir,'校管理端','authCode'))
     def test_authCode_list(self,tagName,inBody,expData,auth_code_init):
