@@ -1,0 +1,125 @@
+{
+  "uid" : "d750a18e9d4e1305",
+  "name" : "test_authCode_list[authCode_008-inBody7-expData7]",
+  "fullName" : "test_case.test_authCode.Test_authCode#test_authCode_list",
+  "historyId" : "25c965e8cfa0541b4b3523511869baf0",
+  "time" : {
+    "start" : 1647335581613,
+    "stop" : 1647335582761,
+    "duration" : 1148
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "auth_code_init",
+    "time" : {
+      "start" : 1647335573284,
+      "stop" : 1647335573284,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "start_running",
+    "time" : {
+      "start" : 1647335572891,
+      "stop" : 1647335572900,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login_init",
+    "time" : {
+      "start" : 1647335572900,
+      "stop" : 1647335573283,
+      "duration" : 383
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_running::0",
+    "time" : {
+      "start" : 1647335583928,
+      "stop" : 1647335583928,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_authCode"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_authCode"
+  }, {
+    "name" : "host",
+    "value" : "ZK丶PLUS"
+  }, {
+    "name" : "thread",
+    "value" : "9376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_authCode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expData",
+    "value" : "{'code': '10042', 'msg': 'JSON parse error: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value\\n at [Source: (PushbackInputStream); line: 1, column: 12] (through reference chain: com.ndsoft.single.bizservice.vo.request.AuthCodePage[\"pageNum\"])'}"
+  }, {
+    "name" : "inBody",
+    "value" : "{'pageNum': '1', 'pageSize': '0.1', 'searchKey': '', 'snState': '0'}"
+  }, {
+    "name" : "tagName",
+    "value" : "'authCode_008'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d750a18e9d4e1305.json",
+  "parameterValues" : [ "{'code': '10042', 'msg': 'JSON parse error: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value\\n at [Source: (PushbackInputStream); line: 1, column: 12] (through reference chain: com.ndsoft.single.bizservice.vo.request.AuthCodePage[\"pageNum\"])'}", "{'pageNum': '1', 'pageSize': '0.1', 'searchKey': '', 'snState': '0'}", "'authCode_008'" ]
+}

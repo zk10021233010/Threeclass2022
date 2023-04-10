@@ -1,0 +1,134 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_authCode",
+      "children" : [ {
+        "name" : "Test_authCode",
+        "children" : [ {
+          "name" : "test_authCode_list[authCode_001-inBody0-expData0]",
+          "uid" : "7a8d2dd0890e0f0c",
+          "parentUid" : "d0610378549ba7d29cd4a67a2ea34414",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647335573284,
+            "stop" : 1647335574465,
+            "duration" : 1181
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': '10000', 'msg': 'success'}", "{'pageNum': '1', 'pageSize': '10', 'searchKey': '', 'snState': '0'}", "'authCode_001'" ]
+        }, {
+          "name" : "test_authCode_list[authCode_002-inBody1-expData1]",
+          "uid" : "412839cce66d636a",
+          "parentUid" : "d0610378549ba7d29cd4a67a2ea34414",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647335574468,
+            "stop" : 1647335575693,
+            "duration" : 1225
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': '10000', 'msg': 'success'}", "{'pageNum': '', 'pageSize': '10', 'searchKey': '', 'snState': '0'}", "'authCode_002'" ]
+        }, {
+          "name" : "test_authCode_list[authCode_003-inBody2-expData2]",
+          "uid" : "bebbbb503951f94f",
+          "parentUid" : "d0610378549ba7d29cd4a67a2ea34414",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647335575697,
+            "stop" : 1647335576870,
+            "duration" : 1173
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': '10000', 'msg': 'success'}", "{'pageNum': '-1', 'pageSize': '10', 'searchKey': '', 'snState': '0'}", "'authCode_003'" ]
+        }, {
+          "name" : "test_authCode_list[authCode_004-inBody3-expData3]",
+          "uid" : "51af55e6a42f6365",
+          "parentUid" : "d0610378549ba7d29cd4a67a2ea34414",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647335576873,
+            "stop" : 1647335578033,
+            "duration" : 1160
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': '10042', 'msg': 'JSON parse error: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value\\n at [Source: (PushbackInputStream); line: 1, column: 12] (through reference chain: com.ndsoft.single.bizservice.vo.request.AuthCodePage[\"pageNum\"])'}", "{'pageNum': '0.1', 'pageSize': '10', 'searchKey': '', 'snState': '0'}", "'authCode_004'" ]
+        }, {
+          "name" : "test_authCode_list[authCode_005-inBody4-expData4]",
+          "uid" : "36140d3fa8594010",
+          "parentUid" : "d0610378549ba7d29cd4a67a2ea34414",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647335578036,
+            "stop" : 1647335579200,
+            "duration" : 1164
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': '10042', 'msg': 'JSON parse error: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value\\n at [Source: (PushbackInputStream); line: 1, column: 12] (through reference chain: com.ndsoft.single.bizservice.vo.request.AuthCodePage[\"pageNum\"])'}", "{'pageNum': 'abc', 'pageSize': '10', 'searchKey': '', 'snState': '0'}", "'authCode_005'" ]
+        }, {
+          "name" : "test_authCode_list[authCode_006-inBody5-expData5]",
+          "uid" : "83f7298b9822758a",
+          "parentUid" : "d0610378549ba7d29cd4a67a2ea34414",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647335579204,
+            "stop" : 1647335580409,
+            "duration" : 1205
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': '10000', 'msg': 'success'}", "{'pageNum': '1', 'pageSize': '', 'searchKey': '', 'snState': '0'}", "'authCode_006'" ]
+        }, {
+          "name" : "test_authCode_list[authCode_007-inBody6-expData6]",
+          "uid" : "3881d6638677f366",
+          "parentUid" : "d0610378549ba7d29cd4a67a2ea34414",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647335580412,
+            "stop" : 1647335581610,
+            "duration" : 1198
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': '10000', 'msg': 'success'}", "{'pageNum': '1', 'pageSize': '-1', 'searchKey': '', 'snState': '0'}", "'authCode_007'" ]
+        }, {
+          "name" : "test_authCode_list[authCode_008-inBody7-expData7]",
+          "uid" : "d750a18e9d4e1305",
+          "parentUid" : "d0610378549ba7d29cd4a67a2ea34414",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647335581613,
+            "stop" : 1647335582761,
+            "duration" : 1148
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': '10042', 'msg': 'JSON parse error: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value\\n at [Source: (PushbackInputStream); line: 1, column: 12] (through reference chain: com.ndsoft.single.bizservice.vo.request.AuthCodePage[\"pageNum\"])'}", "{'pageNum': '1', 'pageSize': '0.1', 'searchKey': '', 'snState': '0'}", "'authCode_008'" ]
+        }, {
+          "name" : "test_authCode_list[authCode_009-inBody8-expData8]",
+          "uid" : "aacf58c2a29e992f",
+          "parentUid" : "d0610378549ba7d29cd4a67a2ea34414",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647335582764,
+            "stop" : 1647335583925,
+            "duration" : 1161
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': '10042', 'msg': 'JSON parse error: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String \"abc\": not a valid Integer value\\n at [Source: (PushbackInputStream); line: 1, column: 12] (through reference chain: com.ndsoft.single.bizservice.vo.request.AuthCodePage[\"pageNum\"])'}", "{'pageNum': '1', 'pageSize': 'abc', 'searchKey': '', 'snState': '0'}", "'authCode_009'" ]
+        } ],
+        "uid" : "d0610378549ba7d29cd4a67a2ea34414"
+      } ],
+      "uid" : "c2dafbdf49a18d9419e7c77fe46ff052"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ]
+}
